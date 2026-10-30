@@ -1,4 +1,6 @@
 name: Release WRT
+permissions:
+  contents: write
 run-name: Release - ${{ inputs.model }}
 
 on:
